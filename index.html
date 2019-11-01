@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
+    <meta charset="UTF-8">
+
+    <title>Marin joulukalenteri</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="box-zero">
+        </p id="paiva">
 
- <script>
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-</script>
+        <script type = "text/javascript">
+            var d = new Date();
+            var paiva = d.getDate();
+//            document.getElementById("paiva").innerHTML = d.getDate();
+            document.write("Tänään on joulukuun " + paiva + ". päivä. Jouluaattoon on " + (24 - paiva) + " päivää.");
+        </script>
+        </p>
+    </div>
 
-<noscript>Sorry, your browser does not support JavaScript!</noscript>  
-Content of the document......
+    <div class="box-one">
+
+        <p> Olipa kerran pieni tyttö nimeltään Mari...... </p>
+
+    </div>
+
+
 </body>
 
 </html>

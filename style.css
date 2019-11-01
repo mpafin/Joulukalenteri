@@ -1,0 +1,42 @@
+body {
+    color: #555;
+    line-height: 1.5;
+    padding: 50px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 0 auto;
+    max-width: 50em;
+    background-color: red;
+}
+
+.box-zero {
+    position: center;
+    max-width: 50em;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: #fff
+}
+
+.box-one {
+    position: center;
+    max-width: 50em;
+    height: 250px;
+    padding: 5em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: #fff
+}
+
+.paiva {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    color: #555;
+    font-style: oblique;
+}
