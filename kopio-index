@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Marin joulukalenteri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box-zero">
+        </p id="paiva">
+
+        <script type="text/javascript">
+            var d = new Date();
+            var paiva = d.getDate();
+            //            document.getElementById("paiva").innerHTML = d.getDate();
+            document.write("Tänään on joulukuun " + paiva + ". päivä. Jouluaattoon on " + (24 - paiva) + " päivää.");
+        </script>
+        </p>
+    </div>
+
+    <div class="box-one">
+
+        <script type="text/javascript">
+            switch (new Date().getDate()) {
+                case 1:
+                    onload = iframeLoaded(luukku1);
+                    break;
+                case 2:
+                    onload = iframeLoaded(luukku2);
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    onload = iframeLoaded(luukku4);
+
+
+            }
+        </script> 
+
+        <iframe id="luukku1" onload="iframeLoaded()" frameborder="0" src="luukku1.html" position="center" height="100%"
+            width="75%" scrolling="no"></iframe>
+        <iframe id="luukku2" onload="iframeLoaded()" frameborder="0" src="luukku2.html" position="center" height="100%"
+            width="75%" scrolling="no"></iframe>
+
+
+    </div>
+
+
+</body>
+
+</html>

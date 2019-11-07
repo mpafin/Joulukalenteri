@@ -3,19 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marin joulukalenteri</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <h3 style=color:antiquewhite;text-align:left; >****** Marin joulukalenteri ******</h3>
     <div class="box-zero">
+        
         </p id="paiva">
 
-        <script type = "text/javascript">
+        <script type="text/javascript">
             var d = new Date();
             var paiva = d.getDate();
-//            document.getElementById("paiva").innerHTML = d.getDate();
             document.write("Tänään on joulukuun " + paiva + ". päivä. Jouluaattoon on " + (24 - paiva) + " päivää.");
         </script>
         </p>
@@ -23,7 +24,87 @@
 
     <div class="box-one">
 
-        <p> Olipa kerran pieni tyttö nimeltään Mari...... </p>
+        <iframe id="luukku" onload="iframeLoaded()" frameborder="0" position="center" height="100%" width="75%"
+            scrolling="no"></iframe>
+
+        <script type="text/javascript">
+            var d = new Date();
+            switch (d.getDate()) {
+                case 1:
+                    document.getElementById("luukku").src = "luukku2.html"
+                    break;
+                case 2:
+                    document.getElementById("luukku").src = "luukku2.html"
+                    break;
+                case 3:
+                    document.getElementById("luukku").src = "luukku2.html"
+                    break;
+                case 4:
+                    document.getElementById("luukku").src = "luukku4.html"
+                    break;
+                case 5:
+                    document.getElementById("luukku").src = "luukku5.html"
+                    break;
+                case 6:
+                    document.getElementById("luukku").src = "luukku6.html"
+                    break;
+                case 7:
+                    document.getElementById("luukku").src = "luukku2.html"
+                    break;
+                case 8:
+                    document.getElementById("luukku").src = "luukku8.html"
+                    break;
+                case 9:
+                    document.getElementById("luukku").src = "luukku9.html"
+                    break;
+                case 10:
+                    document.getElementById("luukku").src = "luukku10.html"
+                    break;
+                case 11:
+                    document.getElementById("luukku").src = "luukku11.html"
+                    break;
+                case 12:
+                    document.getElementById("luukku").src = "luukku12.html"
+                    break;
+                case 13:
+                    document.getElementById("luukku").src = "luukku13.html"
+                    break;
+                case 14:
+                    document.getElementById("luukku").src = "luukku14.html"
+                    break;
+                case 15:
+                    document.getElementById("luukku").src = "luukku15.html"
+                    break;
+                case 16:
+                    document.getElementById("luukku").src = "luukku16.html"
+                    break;
+                case 17:
+                    document.getElementById("luukku").src = "luukku17.html"
+                    break;
+                case 18:
+                    document.getElementById("luukku").src = "luukku18.html"
+                    break;
+                case 19:
+                    document.getElementById("luukku").src = "luukku19.html"
+                    break;
+                case 20:
+                    document.getElementById("luukku").src = "luukku20.html"
+                    break;
+                case 21:
+                    document.getElementById("luukku").src = "luukku21.html"
+                    break;
+                case 22:
+                    document.getElementById("luukku").src = "luukku22.html"
+                    break;
+                case 23:
+                    document.getElementById("luukku").src = "luukku23.html"
+                    break;
+                case 24:
+                    document.getElementById("luukku").src = "luukku24.html"
+                    break;
+            }
+        </script>
+
 
     </div>
 
