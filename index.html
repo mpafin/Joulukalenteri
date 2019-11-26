@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h3 style=color:antiquewhite;text-align:left; >****** Marin joulukalenteri ******</h3>
+    <h1>****** Marin joulukalenteri ******</h1>
     <div class="box-zero">
         
         </p id="paiva">
@@ -25,19 +25,22 @@
     <div class="box-one">
 
         <iframe id="luukku" onload="iframeLoaded()" frameborder="0" position="center" height="100%" width="75%"
-            scrolling="no"></iframe>
+            scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <video id="luukku_video" width="100%" height="100%" autoplay
+            type="video/mp4"></video>
 
         <script type="text/javascript">
             var d = new Date();
             switch (d.getDate()) {
                 case 1:
-                    document.getElementById("luukku").src = "luukku2.html"
+                    document.getElementById("luukku").src = "luukku1.html"
                     break;
                 case 2:
                     document.getElementById("luukku").src = "luukku2.html"
                     break;
                 case 3:
-                    document.getElementById("luukku").src = "luukku2.html"
+                    document.getElementById("luukku").src = "luukku3.html"
                     break;
                 case 4:
                     document.getElementById("luukku").src = "luukku4.html"
@@ -49,7 +52,7 @@
                     document.getElementById("luukku").src = "luukku6.html"
                     break;
                 case 7:
-                    document.getElementById("luukku").src = "luukku2.html"
+                    document.getElementById("luukku").src = "luukku7.html"
                     break;
                 case 8:
                     document.getElementById("luukku").src = "luukku8.html"
@@ -73,10 +76,10 @@
                     document.getElementById("luukku").src = "luukku14.html"
                     break;
                 case 15:
-                    document.getElementById("luukku").src = "luukku15.html"
+                    document.getElementById("luukku").src = "https://www.youtube.com/embed/EYyarcp5LtU?autoplay=1"
                     break;
                 case 16:
-                    document.getElementById("luukku").src = "luukku16.html"
+                    document.getElementById("luukku").src = "https://www.youtube.com/embed/OT2bxfGC4UA"
                     break;
                 case 17:
                     document.getElementById("luukku").src = "luukku17.html"
@@ -91,7 +94,7 @@
                     document.getElementById("luukku").src = "luukku20.html"
                     break;
                 case 21:
-                    document.getElementById("luukku").src = "luukku21.html"
+                    document.getElementById("luukku").src = "vids/video_c70.mp4"
                     break;
                 case 22:
                     document.getElementById("luukku").src = "luukku22.html"
