@@ -5,12 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marin joulukalenteri</title>
+    <style>
+        .button {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: red;
+
+        }
+    </style>
 </head>
 
 <body>
-    <a href="luukku1.html">1 </a><a href="luukku2.html">2 </a><a href="luukku3.html">3 </a>
-    <p>4. luukku</p>
-    <p>................................................................................. </p>
+    <h5>4. luukku</h5>
+
+    <p>Quattrossa on vielä bensaa, mutta matkalla iskee helposti jano. Tonttu tohelo on kuitenkin piilottanut
+        tonttujanojuoman ja kätkenyt sen arvoituksen taakse. </p>
+
+    <img src="pics/eero_tutteilee.jpg" alt="Eero tutkii" style="height:400px;">
+
+    <p>"Ei oo täällä, sanoo tuttimies.</p>
+
+    <P id="arvoitus" style="display:none">Arvoitus kuuluu: "Mistä aamu alkaa, mihin ilta päättyy... mutta varo! Lähdettä
+        vartioi peloittava ja hurja
+        vahti!"</P>
+
+    <button type="button" onclick="document.getElementById('arvoitus').style.display='block'">Näytä arvoitus...</button>
+
 </body>
 
 </html>
